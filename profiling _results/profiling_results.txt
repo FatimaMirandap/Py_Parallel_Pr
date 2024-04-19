@@ -1,0 +1,13 @@
+         3000004 function calls in 1.052 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.052    1.052 C:\Users\HP OMEN\Desktop\Assignment Parallel Programming\numerical_pi.py:8(calculate_pi)
+        1    0.133    0.133    1.052    1.052 {built-in method builtins.sum}
+  1000001    0.424    0.000    0.919    0.000 C:\Users\HP OMEN\Desktop\Assignment Parallel Programming\numerical_pi.py:10(<genexpr>)
+  1000000    0.346    0.000    0.495    0.000 C:\Users\HP OMEN\Desktop\Assignment Parallel Programming\numerical_pi.py:5(f)
+  1000000    0.148    0.000    0.148    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

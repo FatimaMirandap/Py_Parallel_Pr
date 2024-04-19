@@ -1,0 +1,32 @@
+         27 function calls in 0.014 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    0.014    0.014 C:\Users\HP OMEN\Desktop\Assignment Parallel Programming\mpi4py_numerical_pi.py:10(calculate_pi_mpi)
+        1    0.006    0.006    0.006    0.006 C:\Users\HP OMEN\Desktop\Assignment Parallel Programming\mpi4py_numerical_pi.py:7(f)
+        1    0.002    0.002    0.003    0.003 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\function_base.py:24(linspace)
+        1    0.001    0.001    0.001    0.001 {built-in method numpy.arange}
+        1    0.001    0.001    0.001    0.001 {method 'reduce' of 'mpi4py.MPI.Comm' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\fromnumeric.py:2177(sum)
+        1    0.000    0.000    0.001    0.001 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\fromnumeric.py:71(_wrapreduction)
+        1    0.001    0.001    0.001    0.001 {method 'reduce' of 'numpy.ufunc' objects}
+        1    0.000    0.000    0.000    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'Get_size' of 'mpi4py.MPI.Comm' objects}
+        1    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\numeric.py:1855(isscalar)
+        1    0.000    0.000    0.000    0.000 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\fromnumeric.py:3176(ndim)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        1    0.000    0.000    0.000    0.000 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\fromnumeric.py:72(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 {method 'Get_rank' of 'mpi4py.MPI.Comm' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\fromnumeric.py:2172(_sum_dispatcher)
+        1    0.000    0.000    0.000    0.000 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\__init__.py:145(_DType_reduce)
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\function_base.py:19(_linspace_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\fromnumeric.py:3172(_ndim_dispatcher)
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+        1    0.000    0.000    0.000    0.000 C:\Users\HP OMEN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\multiarray.py:669(result_type)
+
+

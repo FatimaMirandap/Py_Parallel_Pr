@@ -1,0 +1,501 @@
+         17117 function calls (16745 primitive calls) in 0.423 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.422    0.422 C:\Users\HP OMEN\Desktop\Assignment Parallel Programming\multiprocess_numerical_pi.py:13(calculate_pi_parallel)
+        4    0.000    0.000    0.305    0.076 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:611(wait)
+        4    0.000    0.000    0.305    0.076 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:295(wait)
+       20    0.305    0.015    0.305    0.015 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.305    0.305 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:369(starmap)
+        1    0.000    0.000    0.305    0.305 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:767(get)
+        1    0.000    0.000    0.305    0.305 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:764(wait)
+        1    0.000    0.000    0.112    0.112 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:115(Pool)
+        1    0.000    0.000    0.083    0.083 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:183(__init__)
+        1    0.000    0.000    0.079    0.079 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:305(_repopulate_pool)
+        1    0.000    0.000    0.079    0.079 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:314(_repopulate_pool_static)
+        4    0.000    0.000    0.079    0.020 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:110(start)
+        4    0.000    0.000    0.079    0.020 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:333(_Popen)
+        4    0.000    0.000    0.076    0.019 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:45(__init__)
+        4    0.074    0.019    0.074    0.019 {built-in method _winapi.CreateProcess}
+     39/4    0.000    0.000    0.033    0.008 <frozen importlib._bootstrap>:1165(_find_and_load)
+     39/4    0.000    0.000    0.033    0.008 <frozen importlib._bootstrap>:1120(_find_and_load_unlocked)
+     37/4    0.000    0.000    0.032    0.008 <frozen importlib._bootstrap>:666(_load_unlocked)
+     22/4    0.000    0.000    0.032    0.008 <frozen importlib._bootstrap_external>:934(exec_module)
+     82/8    0.000    0.000    0.030    0.004 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+     25/4    0.000    0.000    0.030    0.008 {built-in method builtins.exec}
+        1    0.000    0.000    0.028    0.028 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:1(<module>)
+        1    0.000    0.000    0.013    0.013 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:1(<module>)
+       39    0.000    0.000    0.012    0.000 <frozen importlib._bootstrap>:1054(_find_spec)
+       28    0.000    0.000    0.011    0.000 <frozen importlib._bootstrap_external>:1499(find_spec)
+       28    0.000    0.000    0.011    0.000 <frozen importlib._bootstrap_external>:1467(_get_spec)
+        1    0.000    0.000    0.011    0.011 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:1(<module>)
+       76    0.001    0.000    0.010    0.000 <frozen importlib._bootstrap_external>:1607(find_spec)
+       22    0.000    0.000    0.010    0.000 <frozen importlib._bootstrap_external>:1007(get_code)
+    17/12    0.000    0.000    0.008    0.001 <frozen importlib._bootstrap>:1207(_handle_fromlist)
+        2    0.000    0.000    0.008    0.004 {built-in method builtins.__import__}
+        1    0.000    0.000    0.007    0.007 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py:1(<module>)
+      126    0.000    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+      126    0.007    0.000    0.007    0.000 {built-in method nt.stat}
+        5    0.000    0.000    0.006    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\util.py:208(__call__)
+        1    0.000    0.000    0.006    0.006 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:738(__exit__)
+        1    0.000    0.000    0.006    0.006 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:654(terminate)
+        1    0.000    0.000    0.006    0.006 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:680(_terminate_pool)
+        1    0.000    0.000    0.005    0.005 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\util.py:1(<module>)
+       44    0.000    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:1127(get_data)
+       16    0.000    0.000    0.004    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:103(wait)
+        2    0.000    0.000    0.004    0.002 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:142(join)
+       16    0.004    0.000    0.004    0.000 {built-in method _winapi.WaitForSingleObject}
+        1    0.000    0.000    0.004    0.004 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\traceback.py:1(<module>)
+       37    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap>:566(module_from_spec)
+       75    0.001    0.000    0.004    0.000 {built-in method builtins.__build_class__}
+      368    0.002    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:96(_path_join)
+        1    0.000    0.000    0.003    0.003 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:1(<module>)
+        6    0.000    0.000    0.003    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py:225(compile)
+        6    0.000    0.000    0.003    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py:272(_compile)
+       22    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:727(_compile_bytecode)
+        6    0.000    0.000    0.003    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:740(compile)
+       22    0.003    0.000    0.003    0.000 {built-in method marshal.loads}
+        1    0.000    0.000    0.003    0.003 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\textwrap.py:1(<module>)
+        4    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap_external>:1231(create_module)
+        4    0.002    0.001    0.002    0.001 {built-in method _imp.create_dynamic}
+        3    0.000    0.000    0.002    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:110(SimpleQueue)
+      3/2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:975(exec_module)
+        1    0.000    0.000    0.002    0.002 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:345(_setup_queues)
+       44    0.002    0.000    0.002    0.000 {built-in method io.open_code}
+        1    0.000    0.000    0.002    0.002 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\textwrap.py:17(TextWrapper)
+        1    0.000    0.000    0.002    0.002 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:1(<module>)
+        1    0.000    0.000    0.002    0.002 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\queue.py:1(<module>)
+        1    0.000    0.000    0.002    0.002 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\bz2.py:1(<module>)
+        6    0.000    0.000    0.002    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:979(parse)
+     23/6    0.000    0.000    0.002    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:456(_parse_sub)
+     29/6    0.001    0.000    0.002    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:516(_parse)
+       44    0.002    0.000    0.002    0.000 {method 'read' of '_io.BufferedReader' objects}
+       27    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+       26    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        3    0.000    0.000    0.001    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\queues.py:339(__init__)
+        1    0.000    0.000    0.001    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\spawn.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\fnmatch.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\random.py:1(<module>)
+       22    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1146(path_stats)
+        1    0.000    0.000    0.001    0.001 <frozen runpy>:1(<module>)
+        1    0.000    0.000    0.001    0.001 <frozen posixpath>:1(<module>)
+        8    0.000    0.000    0.001    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\reduction.py:58(dump)
+        1    0.000    0.000    0.001    0.001 <frozen importlib.util>:1(<module>)
+       37    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:493(_init_module_attrs)
+        1    0.000    0.000    0.001    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\lzma.py:1(<module>)
+       44    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:437(cache_from_source)
+        3    0.000    0.000    0.001    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:65(Lock)
+       11    0.000    0.000    0.001    0.000 {method 'dump' of '_pickle.Pickler' objects}
+        3    0.000    0.000    0.001    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:945(start)
+        6    0.000    0.000    0.001    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:573(_code)
+        1    0.000    0.000    0.001    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:671(_help_stuff_finish)
+        1    0.000    0.000    0.001    0.001 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\locale.py:1(<module>)
+        1    0.001    0.001    0.001    0.001 {method 'acquire' of '_multiprocessing.SemLock' objects}
+       48    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:392(cached)
+     42/6    0.000    0.000    0.001    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:37(_compile)
+       26    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:567(_get_cached)
+        4    0.000    0.000    0.001    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:128(terminate)
+        4    0.000    0.000    0.001    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:124(terminate)
+        4    0.001    0.000    0.001    0.000 {built-in method _winapi.TerminateProcess}
+       39    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:169(__enter__)
+       48    0.001    0.000    0.001    0.000 {method '__exit__' of '_io._IOBase' objects}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:552(Pipe)
+      368    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:119(<listcomp>)
+      499    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:261(get)
+       39    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1602(_get_spec)
+        2    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\collections\__init__.py:350(namedtuple)
+       16    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:973(reduce_pipe_connection)
+       34    0.000    0.000    0.000    0.000 {built-in method _winapi.CloseHandle}
+     1251    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:70(arbitrary_address)
+       96    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1424(_path_importer_cache)
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:778(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:401(mktemp)
+      353    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:29(_close_handles)
+      833    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+1364/1317    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+      575    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:240(__next)
+       22    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:243(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1411(_path_hooks)
+        7    0.000    0.000    0.000    0.000 <frozen abc>:105(__new__)
+     1148    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       39    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:71(__init__)
+     1061    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      434    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       16    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\reduction.py:106(__init__)
+       19    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+       39    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\site-packages\_distutils_hack\__init__.py:89(find_spec)
+       87    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        3    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:154(__next__)
+       66    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\spawn.py:160(get_preparation_data)
+      413    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
+      226    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:168(__getitem__)
+       39    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1658(_fill_cache)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\queues.py:369(put)
+       39    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:748(find_spec)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\queues.py:1(<module>)
+       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:172(_path_isabs)
+       22    0.000    0.000    0.000    0.000 {built-in method _imp.source_hash}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:856(__init__)
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\spawn.py:83(get_command_line)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:511(_compile_info)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.eval}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:168(__init__)
+       39    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:100(acquire)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\heapq.py:1(<module>)
+        7    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC721A0FD0}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:50(__init__)
+        8    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:100(__getstate__)
+       39    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:125(release)
+        4    0.000    0.000    0.000    0.000 {built-in method _winapi.CreatePipe}
+       12    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\enum.py:1525(__and__)
+       88    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:405(parent)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1239(exec_module)
+    39/15    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:178(getwidth)
+      535    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       11    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\reduction.py:38(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1699(path_hook_for_FileFinder)
+       14    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:121(poll)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\bisect.py:1(<module>)
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:179(Process)
+        1    0.000    0.000    0.000    0.000 {built-in method nt.listdir}
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:642(_classify_pyc)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:778(exec_module)
+        8    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:350(__reduce__)
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+      132    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+       43    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:316(_class_escape)
+      202    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:256(match)
+       31    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:920(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen zipimport>:64(__init__)
+       39    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:198(cb)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:770(create_module)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:182(send_bytes)
+        8    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:80(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:121(_make_name)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:471(_map_async)
+      137    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1030(__exit__)
+      194    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:562(__init__)
+        5    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:98(closegroup)
+      256    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      137    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1026(__enter__)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:77(_exists)
+        4    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_compression.py:1(<module>)
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateNamedPipe}
+       22    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:216(_compile_charset)
+        3    0.000    0.000    0.000    0.000 {built-in method nt.lstat}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\queues.py:337(SimpleQueue)
+        8    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\random.py:480(choices)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:143(rng)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:164(_path_isdir)
+        7    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
+        8    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:99(duplicate_for_child)
+       76    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+       39    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:300(_args_from_interpreter_flags)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\random.py:119(__init__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:422(spec_from_loader)
+       16    0.000    0.000    0.000    0.000 {built-in method _winapi.OpenProcess}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:224(exitcode)
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:61(_cleanup)
+       36    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\enum.py:1507(_get_value)
+        5    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\util.py:189(__init__)
+       72    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:293(tell)
+      227    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\random.py:128(seed)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\_abc.py:1(<module>)
+       24    0.000    0.000    0.000    0.000 {built-in method _winapi.DuplicateHandle}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:284(_send_bytes)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\random.py:493(<listcomp>)
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:153(is_alive)
+        3    0.000    0.000    0.000    0.000 <frozen ntpath>:107(join)
+        8    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\reduction.py:71(duplicate)
+       85    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:164(__len__)
+       43    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\reduction.py:48(dumps)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:796(__init__)
+        5    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:386(_mk_bitmap)
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:243(__init__)
+       27    0.000    0.000    0.000    0.000 {built-in method nt._path_splitroot}
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+       22    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        2    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:1192(is_alive)
+      215    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\functools.py:35(update_wrapper)
+      215    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       19    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:453(_uniq)
+       58    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:176(append)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:599(_check_name_wrapper)
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.ConnectNamedPipe}
+       88    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+       13    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:398(_simple)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:749(Popen)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:131(__del__)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:747(__init__)
+        3    0.000    0.000    0.000    0.000 {function Random.seed at 0x000001A005DD67A0}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1562(__init__)
+       88    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       40    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:365(get_spawning_popen)
+       39    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:357(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.WriteFile}
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateFile}
+       87    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       16    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:172(__setitem__)
+        8    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:368(set_spawning_popen)
+        4    0.000    0.000    0.000    0.000 <frozen ntpath>:87(isabs)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+       30    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        5    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:1125(_wait_for_tstate_lock)
+       12    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\enum.py:688(__call__)
+        8    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\queues.py:355(__getstate__)
+      9/6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:436(_get_literal_prefix)
+        6    0.000    0.000    0.000    0.000 <frozen ntpath>:154(splitdrive)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:277(_close)
+       37    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextlib.py:272(contextmanager)
+        7    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_weakrefset.py:85(add)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:173(Pool)
+       87    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       78    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:376(_escape)
+       16    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:371(assert_spawning)
+       82    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+       19    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       53    0.000    0.000    0.000    0.000 {built-in method nt.getpid}
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:703(_validate_hash_pyc)
+        5    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:388(<listcomp>)
+       46    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:113(__init__)
+       76    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:1087(join)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:231(__init__)
+        5    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:86(opengroup)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:1221(daemon)
+       20    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       16    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:169(fileno)
+       39    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:165(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen ntpath>:538(normpath)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:254(_requires_builtin_wrapper)
+        5    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:467(_get_charset_prefix)
+        2    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:274(getuntil)
+       31    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+       26    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:83(groups)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:115(_ConnectionBase)
+       90    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:163(TimeoutExpired)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:682(SpooledTemporaryFile)
+        2    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\copyreg.py:113(_slotnames)
+        9    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:1453(current_thread)
+        7    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_weakrefset.py:39(_remove)
+       12    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\spawn.py:92(<genexpr>)
+       32    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:159(readable)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\functools.py:518(decorating_function)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:1051(_stop)
+        6    0.000    0.000    0.000    0.000 {method 'GetOverlappedResult' of '_winapi.Overlapped' objects}
+       28    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:271(__enter__)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\weakref.py:104(__init__)
+       30    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\random.py:103(Random)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1097(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\queue.py:28(Queue)
+       15    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method msvcrt.open_osfhandle}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\spawn.py:138(_check_not_importing_main)
+       12    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:570(isstring)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\queues.py:35(Queue)
+       20    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:70(<genexpr>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:895(_resolve_filename)
+       22    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:1324(_make_invoke_excepthook)
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.SetNamedPipeHandleState}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:283(_acquire_restore)
+       18    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\util.py:48(debug)
+        1    0.000    0.000    0.000    0.000 {method 'put' of '_queue.SimpleQueue' objects}
+       12    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\enum.py:1095(__new__)
+        4    0.000    0.000    0.000    0.000 {built-in method _winapi.GetExitCodeProcess}
+       15    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+       48    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\HP OMEN\Desktop\Assignment Parallel Programming\multiprocess_numerical_pi.py:15(<listcomp>)
+        6    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       37    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:413(has_location)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1687(<setcomp>)
+       44    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:286(_is_owned)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:811(_newname)
+       19    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:135(_check_closed)
+       48    0.000    0.000    0.000    0.000 {built-in method math.floor}
+       20    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:99(_check_closed)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:963(fix_flags)
+        9    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        8    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:94(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:46(SemLock)
+        4    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
+       32    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:164(writable)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:118(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:962(create_module)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:921(ThreadPool)
+       24    0.000    0.000    0.000    0.000 {built-in method _winapi.GetCurrentProcess}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:274(__exit__)
+       23    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+       30    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\site-packages\_distutils_hack\__init__.py:96(<lambda>)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:857(TemporaryDirectory)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:133(_RandomNameSequence)
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:280(_release_save)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:230(_get_candidate_names)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:745(ApplyResult)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\bz2.py:26(BZ2File)
+        4    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:193(name)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:470(CompletedProcess)
+       12    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:575(is_set)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\traceback.py:369(StackSummary)
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:290(_optim_args_from_interpreter_flags)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:126(CalledProcessError)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:77(__init__)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1122(get_filename)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\enum.py:193(__get__)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:734(__enter__)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:931(create_module)
+       11    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:31(_combine_flags)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\lzma.py:38(LZMAFile)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_compression.py:33(DecompressReader)
+        4    0.000    0.000    0.000    0.000 {built-in method nt._path_normpath}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:370(Barrier)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\spawn.py:36(set_executable)
+        1    0.000    0.000    0.000    0.000 <frozen importlib.util>:286(LazyLoader)
+       17    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        9    0.000    0.000    0.000    0.000 {built-in method sys.intern}
+       11    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\traceback.py:244(FrameSummary)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:39(Popen)
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:253(get_start_method)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\functools.py:65(wraps)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py:253(escape)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:217(Condition)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\queue.py:258(_PySimpleQueue)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\traceback.py:674(TracebackException)
+        2    0.000    0.000    0.000    0.000 {built-in method math.log}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\weakref.py:289(update)
+        9    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\collections\__init__.py:424(<genexpr>)
+       14    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:428(_get_iscased)
+        4    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+       11    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:37(current_process)
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py:1206(daemon)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\util.py:371(ForkAwareThreadLock)
+        1    0.000    0.000    0.000    0.000 <frozen runpy>:49(_ModifiedArgv0)
+        1    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:656(PipeListener)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:804(XmlListener)
+       12    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:448(Listener)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\queue.py:223(PriorityQueue)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\util.py:108(_platform_supports_abstract_sockets)
+       11    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:205(daemon)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:90(_make_methods)
+        4    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        6    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:234(ident)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:364(Connection)
+        8    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\spawn.py:45(get_executable)
+        5    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        4    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:213(authkey)
+        8    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py:189(name)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\random.py:215(__init_subclass__)
+        5    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:351(_check_running)
+        2    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py:304(checkgroupname)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:268(PipeConnection)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:279(_get_sentinels)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\util.py:185(Finalize)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1220(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+        9    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1568(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method _imp.get_frozen_object}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py:407(_generate_overlap_table)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:150(_PoolCache)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:157(__init__)
+        8    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        7    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        5    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\util.py:44(sub_debug)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\functools.py:479(lru_cache)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:756(ready)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:837(IMapIterator)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:476(_TemporaryFileWrapper)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:795(is_package)
+        1    0.000    0.000    0.000    0.000 <frozen os>:818(fsdecode)
+        3    0.000    0.000    0.000    0.000 {method 'getbuffer' of '_io.BytesIO' objects}
+        2    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\reduction.py:43(register)
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:187(get_context)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:215(Handle)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py:433(_TemporaryFileCloser)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:80(MaybeEncodingError)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\random.py:787(SystemRandom)
+        1    0.000    0.000    0.000    0.000 <frozen runpy>:26(_TempModule)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\queues.py:294(JoinableQueue)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:328(Event)
+        1    0.000    0.000    0.000    0.000 <frozen importlib.util>:223(_LazyModule)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:192(STARTUPINFO)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:596(SocketListener)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_compression.py:9(BaseStream)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\_abc.py:7(Loader)
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:197(get_start_method)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\enum.py:1257(value)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:57(RemoteTraceback)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:266(__del__)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\queue.py:242(LifoQueue)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:794(MapResult)
+        1    0.000    0.000    0.000    0.000 {built-in method math.exp}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py:237(get_context)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\traceback.py:651(_ExceptionPrintContext)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\traceback.py:90(_Sentinel)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:782(ConnectionWrapper)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:63(ExceptionWithTraceback)
+        3    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\connection.py:143(_check_writable)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:130(Semaphore)
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\queue.py:23(Full)
+        3    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\util.py:388(ForkAwareLocal)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py:906(IMapUnorderedIterator)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py:64(SameFileError)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:149(BoundedSemaphore)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:191(RLock)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\popen_spawn_win32.py:23(_path_eq)
+        1    0.000    0.000    0.000    0.000 <frozen runpy>:166(_Error)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:695(_use_posix_spawn)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py:123(SubprocessError)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py:67(SpecialFileError)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py:71(ExecError)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py:77(RegistryError)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\synchronize.py:166(Lock)
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py:61(Error)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py:74(ReadError)
+        1    0.000    0.000    0.000    0.000 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py:81(_GiveupOnFastCopy)
+
+
