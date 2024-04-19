@@ -29,6 +29,12 @@ python multiprocess_numerical_pi.py
 # For the distributed approach with MPI
 mpirun -np <number_of_processes> python mpi4py_numerical_pi.py
 
+# Profiling
+Each script contains code for profiling its execution. Profiling results will be saved in text files within the same directory after running the scripts.
+
+# Contributing
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+Please ensure to update tests as appropriate.
 
 To use this README, you would need to:
 1. Replace the `<FatimaMirandaP>` placeholder with your GitHub username.
